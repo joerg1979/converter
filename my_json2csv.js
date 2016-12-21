@@ -21,8 +21,8 @@ var fs = require('fs');
  *
  * @type {string}
  */
-var inputFileName = "./data.json";
-var outputFileName = "result.csv";
+var inputFileName = "./input/data.json";
+var outputFileName = "./output/result.csv";
 
 
 
@@ -78,27 +78,27 @@ var optionalDataJson = [
     {
         "pagecol": {
             "sort": "17'' Sport brakes",
-            "display": "17'' Sport brakes",
-            "path": "/content/MINI/marketUK/mini_co_uk/en_GB/home/accessories/john-cooper-works-tuning/tuning-and-exhausts/chassis-tuning/17_-sport-brakes0"
+            "display": "Leider wurde die Datei",
+            "path": "nicht gefunden"
         },
-        "comptypecol": 23,
-        "comppathcol": 25,
+        "comptypecol": 'daher wurde dieser',
+        "comppathcol": 'Inline DEMO-Content',
         "lastmodcol": {
             "sort": -101089,
-            "display": "10/11/16"
+            "display": "ausgegeben"
         }
     },
     {
         "pagecol": {
             "sort": "17'' Sport brakes",
-            "display": "17'' Sport brakes",
-            "path": "/content/MINI/marketUK/mini_co_uk/en_GB/home/accessories/john-cooper-works-tuning/tuning-and-exhausts/chassis-tuning/17_-sport-brakes"
+            "display": "Die Quelldatei",
+            "path": "sollte data.json heißen und im Verzeichniß INPUT liegen"
         },
-        "comptypecol": 23,
-        "comppathcol": 25,
+        "comptypecol": 'JSON-String sollte innerhalb von eckigen Klammern liegen',
+        "comppathcol": 'Das default definierte Format lautet: ',
         "lastmodcol": {
             "sort": -101089,
-            "display": "10/11/16"
+            "display": 'pagecol.display, pagecol.path, comptypecol, comppathcol lastmodcol.display'
         }
     }
 ];
@@ -156,4 +156,3 @@ try {
 } catch (err) {
     console.error('Fehler beim schreiben der Datei: \"' + outputFileName + '\"' + err);
 }
-
