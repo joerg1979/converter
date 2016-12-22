@@ -1,0 +1,31 @@
+{
+  "name": "html4json2csv",
+  "preferGlobal": "true",
+  "version": "3.7.3",
+  "description": "Convert JSON to CSV via html-frontend",
+  "keywords": [
+    "json",
+    "to",
+    "csv",
+    "export",
+    "convert",
+    "parse"
+  ],
+  "author": {
+    "name": "Jörg Sundmacher",
+    "email": "joerg.sundmacher@gmail.com"
+  },
+  "license": "MIT",
+
+  "dependencies": {
+    "json2csv": "3.7.3"
+  },
+  "devDependencies": {
+
+  },
+  "main": "./my_json2csv.js",
+  "repository": {
+  "type": "git",
+  "url": "git+https://js_edv@bitbucket.org/js_edv/converter.git"
+  }
+}
